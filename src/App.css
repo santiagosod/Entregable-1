@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  text-align: center;
+}
+
+.bg-color{
+  background-color: aqua;
+  color: aqua;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.QuoteBox{
+  background-color: #fff;
+
+  max-width: 700px;
+  min-width: 300px;
+  max-height: 250px;
+  padding: 1em;
+
+  box-shadow:2px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.author{
+  text-align: end;
+  margin: 1em 0;
+
+  font-family: 'italic', sans-serif;
+  font-weight: 700;
+}
+
+.phrase{
+  font-size: 20px;
+}
+
+.btn-flex{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.btn{
+  width: 60px;
+  height: 60px;
+  margin: 1em;
+  border-radius: 100%;
+
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+
+  outline: 0;
+  border-style: none;
+  cursor: pointer;
+}
+
+.yellow{
+  background-color: yellow;
+  color: yellow;
+}
+
+.blue{
+  background-color: blue;
+  color: blue;
+}
+
+.violet{
+  background-color: violet;
+  color: violet;
+}
+
+.green{
+  background-color: green;
+  color: green;
+}
+
+.red{
+  background-color: red;
+  color: red;
+}
