@@ -4,6 +4,7 @@ const QuoteBox = ({quote}) => {
   return (
     <div className="quote">
         <div className="phrase">
+            <i class="fa-solid fa-quote-left"></i>
             <p>{quote.quote}</p>
         </div>
         <div className="author">

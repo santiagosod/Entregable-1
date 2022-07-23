@@ -24,7 +24,6 @@
 
   max-width: 700px;
   min-width: 300px;
-  max-height: 250px;
   padding: 1em;
 
   box-shadow:2px 3px rgba(0, 0, 0, 0.2);
@@ -35,12 +34,18 @@
   text-align: end;
   margin: 1em 0;
 
-  font-family: 'italic', sans-serif;
-  font-weight: 700;
+  font-family:sans-serif;
+  font-weight: bolder;
 }
 
 .phrase{
   font-size: 20px;
+  display: flex;
+  gap: 0.6em;
+}
+
+.fa-solid{
+  font-size: 100px;
 }
 
 .btn-flex{
